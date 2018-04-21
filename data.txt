@@ -1,3 +1,14 @@
 [
-{"brand": "#sony","type": "#camera#mil","state":"#new","name":"Sony A7 III","Resolution":"6000 × 4000 (24 megapixels)","Dimensions":"127 by 96 by 74 mm","Weight":"650 g","path": "images/Sony/sony_a7-markIII.jpg"}
+    {
+        "brand": "#sony",
+        "type": "#camera#mil",
+        "state":"#new",
+        "name":"Sony A7 III",
+        "resolution":"6000 × 4000 (24.20 megapixels)",
+        "dimensions":"127 by 96 by 74 mm",
+        "weight":"650 g",
+        "hover":"693-point AF system, 10fps burst shooting",
+        "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
+        "path": "images/Sony/sony_a7-markIII.jpg"
+    }
 ]
