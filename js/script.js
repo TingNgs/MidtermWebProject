@@ -1,7 +1,7 @@
 $(function() {
     $("#footer").load("footer.html");
     $("#header").load("header.html");
-    dialogSetting();
+    
 });
 function dialogSetting(){
     $( "#dialog" ).dialog({
@@ -22,13 +22,14 @@ function dialogSetting(){
     $(document).on('click', ".product", function () {
         url= 'data.txt';
         clicked = $(this);
-        $( "#dialog" ).dialog('option', 'title',clicked );
+        console.log(clicked[0].childNodes[0].childNodes[1].innerHTML)
+        $( "#dialog" ).dialog('option', 'title',clicked[0].childNodes[0].childNodes[1].innerHTML );
         $.get(url, function(index) {
             var temp = index.toString();
             var temp1 = JSON.parse("[" + temp + "]");
             var json = temp1[0];
             for(var i=0;i<json.length;i++){
-                if(clicked[0].childNodes[1].innerHTML == json[i].name){
+                if(clicked[0].childNodes[0].childNodes[1].innerHTML == json[i].name){
                     console.log(json[i])
                     $('#dialog').empty();
                     $('#dialog').append(
@@ -58,10 +59,10 @@ function getNewProduct(){
                 var tempString =element.state;
                 if(tempString != undefined){
                     if(tempString.indexOf("#new")>-1){
-                        $('#new_product').append(
-                            $('<a href="#"/>').append(
+                        $('#new_product_scroll').append(
+                            
                                 $('<div class="horizontal_product product"></div>').append(
-                                    $('<img>',{src:element.path}),
+                                    $('<a href="#"/>').append($('<img>',{src:element.path}),
                                     $('<h2>',{text:element.name}),
                                     $('<p>',{text:element.hover})
                                 )
