@@ -1,4 +1,7 @@
 *{padding: 0;margin: 0;}
+body{
+    
+}
 #page_size{
     width: 1280px;
     margin: 0 auto;
@@ -46,16 +49,17 @@
 
 .site-nav a {
     display: block;
-    color: #617140;
+    color: #5b7495;
     text-decoration: none;
     width: 70px;
     padding: 10px 20px;
-    border: 3px solid #e5e9dc;
+    border: 3px solid #d5e0f1;
     border-radius: 3px;
 }
 
 .site-nav li:hover > a {
-    background-color: #e5e9dc;
+    color: #FFF;
+    background-color: #7ca5db;
     box-shadow: 0 3px 6px 0px rgba(0,0,0,0.32);
 }
 
@@ -63,7 +67,7 @@
 
 .site-nav li ul {
     position: absolute;
-    background-color: #e5e9dc;
+    background-color: rgb(240, 240, 247);
     display: none;
     box-shadow: 0 3px 6px 0px rgba(0,0,0,0.32);
     z-index: 9999;
@@ -76,10 +80,10 @@
 .site-nav li li {
     float: none;
     margin-right: 0;
-    background-color: #e5e9dc;
+    background-color: rgb(240, 240, 247);
 }
 
 .site-nav li li a:hover {
-    background-color: #869960;
+    background-color: #7ca5db;
     color: #FFF;
 }
