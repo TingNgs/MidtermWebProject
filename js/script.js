@@ -1,5 +1,9 @@
-$(function() {$("#footer").load("footer.html");
+$(function() {
+    $("#footer").load("footer.html");
     $("#header").load("header.html");
+    dialogSetting();
+});
+function dialogSetting(){
     $( "#dialog" ).dialog({
         autoOpen: false,
         show: {
@@ -43,8 +47,7 @@ $(function() {$("#footer").load("footer.html");
         });
         $( "#dialog" ).dialog( "open" );
     });
-});
-
+}
 function getNewProduct(){
     $.ajax({
         type: 'GET',
