@@ -82,3 +82,19 @@
     background-color: #7ca5db;
     color: #FFF;
 }
+
+/*
+**Index New Product
+*/
+.horizontal_product_scroll{
+    overflow: auto;
+    white-space: nowrap;
+}
+.horizontal_product{
+    width: 250px;
+    display: inline-block;
+    margin-right: 93px;
+}
+.horizontal_product p{
+    text-align: center;
+}

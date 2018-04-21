@@ -1,0 +1,3 @@
+[
+{"brand": "#sony","type": "#camera#mil","state":"#new","name":"Sony A7 III","Resolution":"6000 × 4000 (24 megapixels)","Dimensions":"127 by 96 by 74 mm","Weight":"650 g","path": "images/Sony/sony_a7-markIII.jpg"}
+]
