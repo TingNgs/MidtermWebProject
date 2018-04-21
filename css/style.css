@@ -1,7 +1,4 @@
 *{padding: 0;margin: 0;}
-body{
-    
-}
 #page_size{
     width: 1280px;
     margin: 0 auto;
@@ -16,11 +13,9 @@ body{
     display: block;
     clear: both;
 }
-
 /**
 ***Header
 ***/
-
 #header{
     padding-top: 30px;
     height :150px;
