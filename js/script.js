@@ -1,7 +1,6 @@
 $(function() {
     $("#footer").load("footer.html");
     $("#header").load("header.html");
-    
 });
 function dialogSetting(){
     $( "#dialog" ).dialog({
