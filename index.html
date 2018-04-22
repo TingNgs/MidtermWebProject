@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -9,22 +10,29 @@
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="header" class="page_size"></div>
         <div id="body" class="page_size">
-            <div id="new_product" >
-                <a href="#"><p id="view_all_product">View All Product</p></a>
+            <div id="new_product">
+                <a href="#">
+                    <p id="view_all_product">View All Product</p>
+                </a>
                 <h1>New Product</h1>
-                <div id="new_product_scroll"class="horizontal_product_scroll"></div>
+                <div id="new_product_scroll" class="horizontal_product_scroll"></div>
             </div>
             <div id="index_text_over_img_1" class="text_over_img">
                 <img src="images/index_img_1.jpg">
                 <div class="text_box_over_img">
                     <h1>Take your camera</h1>
                     <h2>everywhere you go</h2>
-                    <a href="#" id="test"><p>View all cameras</p></a>
-                    <a href="#"><p>Cameras Type</p></a>
+                    <a href="#" id="test">
+                        <p>View all cameras</p>
+                    </a>
+                    <a href="#">
+                        <p>Cameras Type</p>
+                    </a>
                 </div>
             </div>
             <div id="index_text_over_img_2" class="text_over_img">
@@ -32,14 +40,20 @@
                 <div class="text_box_over_img">
                     <h1>The Power</h1>
                     <h2>Behind The Picture</h2>
-                    <a href="#" id="test"><p>View all lens</p></a>
-                    <a href="lensMount.html"><p>Lens Mount</p></a>
+                    <a href="#" id="test">
+                        <p>View all lens</p>
+                    </a>
+                    <a href="lensMount.html">
+                        <p>Lens Mount</p>
+                    </a>
                 </div>
             </div>
         </div>
         <div id="footer"></div>
     </div>
-    <div id="dialog" title=""><img id="dialog_img"></div>
+    <div id="dialog" title="">
+        <img id="dialog_img">
+    </div>
     <script>
         dialogSetting();
         getNewProduct();
