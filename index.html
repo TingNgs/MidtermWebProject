@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -10,13 +9,12 @@
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <div id="container">
         <div id="header" class="page_size"></div>
         <div id="body" class="page_size">
             <div id="new_product">
-                <a href="#">
+                <a href="productList.html">
                     <p id="view_all_product">View All Product</p>
                 </a>
                 <h1>New Product</h1>
@@ -27,7 +25,7 @@
                 <div class="text_box_over_img">
                     <h1>Take your camera</h1>
                     <h2>everywhere you go</h2>
-                    <a href="#" id="test">
+                    <a href="productList.html?type&Cameras&cameras" id="test">
                         <p>View all cameras</p>
                     </a>
                     <a href="#">
@@ -40,7 +38,7 @@
                 <div class="text_box_over_img">
                     <h1>The Power</h1>
                     <h2>Behind The Picture</h2>
-                    <a href="#" id="test">
+                    <a href="productList.html?type&Lens&lens" id="test">
                         <p>View all lens</p>
                     </a>
                     <a href="lensMount.html">
@@ -57,6 +55,7 @@
     <script>
         dialogSetting();
         getNewProduct();
+        hoverProduct();    
     </script>
 </body>
 

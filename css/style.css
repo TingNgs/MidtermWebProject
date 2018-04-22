@@ -59,7 +59,7 @@ body{
     opacity: 0;
     text-overflow: ellipsis;
 }
-.product:hover p {
+.product:hover p{
     visibility: visible;
     opacity: 1;
     width: 250px;
@@ -316,6 +316,11 @@ body{
     margin-left: 70px;
 }
 
+/**product_list**/
+#product_list .product{
+    float: left;
+    margin-left: 50px;
+}
 
 /**About Us**/
 #about_us{
