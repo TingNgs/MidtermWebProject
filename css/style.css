@@ -1,8 +1,17 @@
 *{padding: 0;margin: 0;}
-#page_size{
+.page_size{
     width: 1280px;
     margin: 0 auto;
+}
+#container{
     height: 100%;
+    position:relative;
+}
+body{
+    min-height: 100%;
+}
+#body{
+    padding-bottom: 100px;
 }
 /**
 ***Float Clear
@@ -148,6 +157,16 @@
     color: #FFF;
 }
 
+/**
+**Footer
+**/
+#footer {
+    background-color: cornflowerblue;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
 /*
 **New Product
 */
@@ -179,3 +198,4 @@
 .horizontal_product{
     display: inline-block;
 }
+
