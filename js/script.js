@@ -59,7 +59,6 @@ function getNewProduct() {
                 if (tempString != undefined) {
                     if (tempString.indexOf("#new") > -1) {
                         $('#new_product_scroll').append(
-
                             $('<div class="horizontal_product product"></div>').append(
                                 $('<a href="#"/>').append($('<img>', { src: element.path }),
                                     $('<h2>', { text: element.name }),

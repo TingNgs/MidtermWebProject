@@ -5,54 +5,21 @@
         "state":"#new",
         "name":"Sony A7 III",
         "resolution":"6000 × 4000 (24.20 megapixels)",
-        "dimensions":"127 by 96 by 74 mm",
+        "dimensions":"127 x 96 x 74 mm",
         "weight":"650 g",
         "hover":"693-point AF system, 10fps burst shooting",
         "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
         "path": "images/Sony/sony_a7-markIII.jpg"
     },{
-        "brand": "#sony",
+        "brand": "#gopro",
         "type": "#camera#mil",
         "state":"#new",
-        "name":"Sony A7 III",
-        "resolution":"6000 × 4000 (24.20 megapixels)",
-        "dimensions":"127 by 96 by 74 mm",
-        "weight":"650 g",
-        "hover":"693-point AF system, 10fps burst shooting",
-        "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
-        "path": "images/Sony/sony_a7-markIII.jpg"
-    },{
-        "brand": "#sony",
-        "type": "#camera#mil",
-        "state":"#new",
-        "name":"Sony A7 III",
-        "resolution":"6000 × 4000 (24.20 megapixels)",
-        "dimensions":"127 by 96 by 74 mm",
-        "weight":"650 g",
-        "hover":"693-point AF system, 10fps burst shooting",
-        "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
-        "path": "images/Sony/sony_a7-markIII.jpg"
-    },{
-        "brand": "#sony",
-        "type": "#camera#mil",
-        "state":"#new",
-        "name":"Sony A7 III",
-        "resolution":"6000 × 4000 (24.20 megapixels)",
-        "dimensions":"127 by 96 by 74 mm",
-        "weight":"650 g",
-        "hover":"693-point AF system, 10fps burst shooting",
-        "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
-        "path": "images/Sony/sony_a7-markIII.jpg"
-    },{
-        "brand": "#sony",
-        "type": "#camera#mil",
-        "state":"#new",
-        "name":"Sony A7 III",
-        "resolution":"6000 × 4000 (24.20 megapixels)",
-        "dimensions":"127 by 96 by 74 mm",
-        "weight":"650 g",
-        "hover":"693-point AF system, 10fps burst shooting",
-        "features":"All-new 24.2MP back-illuminated sensor , 5-axis image stabilization offers 5-stop compensation , 4K video capture using full width of the sensor.",
-        "path": "images/Sony/sony_a7-markIII.jpg"
+        "name":"GoPro hero 6",
+        "resolution":"4096 x 3072",
+        "dimensions":"62 x 44 x 33mm",
+        "weight":"118 g",
+        "hover":"Stunning 4K video and 12MP photos in Single, Burst and Time",
+        "features":"RAW photos provide the most flexibility when using advanced photo editing software. HDR Photo mode captures added details in the shadows and highlights of a scene.Fine-tune exposure settings with simple on-screen Exposure Control.",
+        "path": "images/GoPro/GoPro_hero_6.jpg"
     }
 ]

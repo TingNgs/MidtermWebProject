@@ -41,18 +41,17 @@ body{
 .product{
     width: 250px;
     height: 300px;
-    margin-right: 60px;
 }
 .product img{
     max-height: 250px;
     max-width: 250px;
 }
 .product p{
-    font-size: 28px;
-    position: relative;
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
     height: 130px;
     width: 250px;
-    bottom: 180px;
     color: #FFFFFF;
     background:rgba(1,1,1,50%);
     white-space:pre-wrap;
@@ -164,7 +163,6 @@ body{
 #new_product_scroll{
     height: 320px;
     overflow-y:hidden;
-    
 }
 #new_product h1{
     margin-left: 50px;
@@ -185,6 +183,7 @@ body{
 }
 .horizontal_product{
     display: inline-block;
+    margin-right: 60px;
 }
 /****typography**/
 .text_over_img{
