@@ -19,6 +19,7 @@ function dialogSetting() {
     height: 600
   });
   $(document).on("click", ".product", function() {
+    
     url = "data.txt";
     clicked = $(this);
     $("#dialog").dialog(
@@ -48,6 +49,7 @@ function dialogSetting() {
       }
     });
     $("#dialog").dialog("open");
+    
   });
 }
 function getNewProduct() {
@@ -62,7 +64,7 @@ function getNewProduct() {
           if (tempString.indexOf("#new") > -1) {
             $("#new_product_scroll").append(
               $('<div class="horizontal_product product"></div>').append(
-                $('<a href="#"/>').append(
+                $('<a href="javascript:;"/>').append(
                   $("<img>", { src: element.path }),
                   $("<h2>", { text: element.name }),
                   $("<p>", { text: element.hover })
@@ -176,7 +178,7 @@ function getData(brand, type) {
         if (brandMatch && typeMatch) {
           $("#product_list").append(
             $('<div class="product"></div>').append(
-              $('<a href="#"/>').append(
+              $('<a href="javascript:;"/>').append(
                 $("<img>", { src: element.path }),
                 $("<h2>", { text: element.name }),
                 $("<p>", { text: element.hover })
