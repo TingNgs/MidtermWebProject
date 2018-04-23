@@ -147,7 +147,7 @@ body{
 }
 
 /**Footer**/
-#footer {
+#footer .page_size{
     background-color: cornflowerblue;
     position: relative;
     height: 150px;
@@ -186,10 +186,12 @@ body{
     margin-right: 60px;
 }
 /****typography**/
-.text_over_img{
+.text_over_img_w1280{
     margin-top: 20px;
 }
-
+.text_over_img_w1280 img{
+    max-width: 1280px;
+}
 /**index_text_over_img_1**/
 #index_text_over_img_1 .text_box_over_img{
     position: absolute;
@@ -360,4 +362,65 @@ body{
 	border-radius: 50%;
 	background-image:url(../images/newItDog.gif)
 }
+
+/**camerasType**/
+
+#camerasType_text_over_image_1 .text_box_over_img{
+    position: absolute;
+    top: 420px;
+    margin-left: 50px;
+}
+#camerasType_text_over_image_2 .text_box_over_img{
+    position: absolute;
+    top: 1040px;
+    margin-left: 100px;
+}
+#camerasType_text_over_image_3 .text_box_over_img{
+    position: absolute;
+    top: 1460px;
+    margin-left: 800px;
+}
+#camerasType_text_over_image_4 .text_box_over_img{
+    position: absolute;
+    top: 1880px;
+    margin-left: 100px;
+}
+#camerasType_text_over_image_5 .text_box_over_img{
+    position: absolute;
+    top: 2320px;
+    margin-left: 800px;
+}
+
+#camerasType_content .text_box_over_img h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#camerasType_text_over_image_1 .text_box_over_img h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#camerasType_content .text_box_over_img a{
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+    background-color:rgba(142, 152, 184, 0.5);
+    border-radius: 3px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#camerasType_content .text_box_over_img a:hover{
+    background-color:rgba(142, 152, 184, 0.2);
+}
+#camerasType_content .text_box_over_img a:active{
+    background-color:rgba(142, 152, 184, 0.3);
+}
+#camerasType_content  p{
+    font-size: 28px;
+    margin: 20px 50px;
+    line-height: 40px;
+}
+
 
