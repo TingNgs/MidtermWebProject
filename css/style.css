@@ -51,22 +51,20 @@ body {
 }
 
 #dialog span {
-    height: 31px;
-    width: 32px;
+    width: 50px;
+    padding: 0;
     text-align: center;
     float: right;
     font-size: 28px;
-    font-weight: bold;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #000000;
-    border: #000000 solid 1px;
+    font-weight: lighter;
+    color: #bbbbbb;
+
 }
 
 #dialog span:hover {
-    color: #000000;
-    background-color: #FFF;
-    border: #000000 solid 1px;
+    color: #ffffff;
+    background-color : #e66363;
+
 }
 
 .ui-dialog-titlebar {
@@ -695,6 +693,74 @@ body {
 #camera_type_footer .text_box_over_img a:active {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+/**lensType**/
+#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    position:absolute;
+    top: 340px;
+}
+#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img h1{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+}
+#lensType_zoom_Prime .text_over_img_w1280 .container{
+    position: absolute;
+    top: 650px;
+    min-width: 1280px;
+}
+#lensType_zoom_Prime .text_over_img_w1280 .container h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 48px;
+}
+#lensType_zoom_Prime .text_over_img_w1280 .container h2{
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+#types_of_camera_lens{
+    margin: 30px 50px;
+}
+#types_of_camera_lens h1{
+    font-size: 52px;
+    padding-bottom: 15px;
+}
+#types_of_camera_lens .lens_content_box{
+    height: 302px;
+    width: 100%;
+    margin-top: 20px;
+    border: #FFFFFF 1px solid;
+}
+#types_of_camera_lens .img_Right .lens_text_box{
+    width: auto;
+}
+#types_of_camera_lens .lens_text_box h2{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#types_of_camera_lens .lens_text_box p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+#types_of_camera_lens img{
+    height: 300px;
+}
+#types_of_camera_lens .img_Left img{
+    float: left;
+    margin:0px 20px;
+}
+#types_of_camera_lens .img_Right img{
+    float: right;
+    margin-right: 20px;
+}
+
 
 .clear {
     display: block;
