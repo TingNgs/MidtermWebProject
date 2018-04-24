@@ -109,6 +109,19 @@
         "features":"3x Zoom Lens with Optical Image Stabilizer. Built-in EVF with Touch and Drag AF. Dual Pixel CMOS AF with Phase-detection.",
         "path": "images/Canon/Canon_powershot_g1_markIII.jpg"
     },{
+        "brand": "#nikon",
+        "CorL": "#cameras",
+        "type": "#compact",
+        "state":"#new",
+        "name":"Nikon COOLPIX W300",
+        "dynamic":"3840 x 2160(‎16.00 megapixels)",
+        "dynamicValue":"Resolution : ",
+        "dimensions":"111.5 x 66.0 x 29 mm",
+        "weight":"231 g",
+        "hover":"Show the world what you're made of.",
+        "features":"Waterproof, freezeproof, shockproof and dustproof adventure camera with extra capabilities. Stunning high resolution photos, 4K Ultra HD videos, Time-lapse videos, Superlapse videos and music montages. ",
+        "path": "images/Nikon/Nikon_COOLPIX_W300.jpg"
+    },{
         "brand": "#sony",
         "CorL": "#cameras",
         "type": "#action",
@@ -121,6 +134,19 @@
         "hover":"4K movies. Less shake.",
         "features":"Live-View Remote for easy control. Smart operation with friendly UI. Adjustable field of view and zoom freedom",
         "path": "images/Sony/Sony_fdr_x3000.jpg"
+    },{
+        "brand": "#nikon",
+        "CorL": "#cameras",
+        "type": "#action",
+        "state":"#",
+        "name":"Nikon KeyMission 170",
+        "dynamic":"3840 x 2160",
+        "dynamicValue":"Resolution : ",
+        "dimensions":"66.4 x 46.8 x 42.7 mm",
+        "weight":"135 g",
+        "hover":"Share your awesome point of view.",
+        "features":"Waterproof, shockproof and freezeproof action camera.Epic 170° first person point of view with outstanding Nikon image quality. Record 4K Ultra HD videos, striking still images, time-lapse sequences and more. SnapBridge integration for wireless sharing. Compact and lightweight with over 10 mounting accessories available.",
+        "path": "images/Nikon/Nikon_KeyMission_170.jpg"
     },
     {
         "brand": "#gopro",
@@ -165,6 +191,20 @@
         "path": "images/Canon/CanonEF16-35mmf2.8LIII_USM.jpg"
     },
     {
+        "brand": "#nikon",
+        "CorL": "#lens",
+        "type": "#zoom",
+        "state":"#",
+        "name":"Nikon 1 NIKKOR VR 30-110mm f/3.8-5.6",
+        "dynamic":"Maximum: f/3.8-5.6  Minimum: f/16",
+        "dynamicValue":"Aperture : ",
+        "dimensions":"60 x 61 mm",
+        "weight":"180 g",
+        "hover":"Compact telephoto captures wide range of scenes",
+        "features":"Optimized for CX-format Nikon 1 system. 30-110mm (81-297mm equivalent in 35mm format). VR image stabilization",
+        "path": "images/Nikon/Nikon_1_NIKKOR_VR_30_110mm_f38_56.jpg"
+    },
+    {
         "brand": "#sony",
         "CorL": "#lens",
         "type": "#prime",
@@ -191,5 +231,19 @@
         "hover":"Wide-angle lens for Canon APS-C cameras",
         "features":"Slimmest and lightest lens of the EF-S series. A stepping motor (STM) supports the Canon EOS Movie Servo AF function to provide smooth and quiet continuous AF during video recording, as well as when shooting photos.",
         "path": "images/Canon/canon_efs_24mm.jpg"
+    },
+    {
+        "brand": "#nikon",
+        "CorL": "#lens",
+        "type": "#prime",
+        "state":"#",
+        "name":"Nikon 1 NIKKOR 10mm f/2.8",
+        "dynamic":"Maximum: f/2.8 Minimum: f/11",
+        "dynamicValue":"Aperture : ",
+        "dimensions":"55.5 x 22 mm",
+        "weight":"77 g",
+        "hover":"Ultra compact, portable and fast.",
+        "features":"Optimized for the Nikon 1 CX-format. Fast f/2.8 maximum aperture. Ultra compact lens design",
+        "path": "images/Nikon/nikon_1_NIKKOR_10mm_f28.png"
     }
 ]
