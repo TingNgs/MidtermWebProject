@@ -280,7 +280,7 @@ body {
 
 #index_text_over_img_1 .text_box_over_img {
     position: absolute;
-    top: 970px;
+    top: 930px;
     margin-left: 80px;
     color: rgba(255, 255, 255, 1);
     width: 1100px;
@@ -299,6 +299,7 @@ body {
     float: right;
     font-size: 28px;
     width: 120px;
+    height: 85px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -322,7 +323,7 @@ body {
 
 #index_text_over_img_2 .text_box_over_img {
     position: absolute;
-    top: 1250px;
+    top: 1200px;
     margin-left: 80px;
     color: rgb(255, 255, 255);
     width: 1100px;
@@ -340,6 +341,7 @@ body {
     float: left;
     font-size: 28px;
     width: 120px;
+    height: 85px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -570,14 +572,14 @@ body {
     color: #FFF;
     padding: 10px;
     font-size: 20px;
-    background-color: rgba(142, 152, 184, 0.5);
+    background-color: rgba(142, 152, 184, 0.7);
     border-radius: 3px;
     margin-right: 20px;
     text-decoration: none;
 }
 
 #camerasType_content .text_box_over_img a:hover {
-    background-color: rgba(142, 152, 184, 0.2);
+    background-color: rgba(142, 152, 184, 0.5);
 }
 
 #camerasType_content .text_box_over_img a:active {
@@ -687,8 +689,11 @@ body {
     margin-left: 20px;
 }
 
-#camera_type_footer text_box_over_img a:hover {
+#camera_type_footer .text_box_over_img a:hover {
     background-color: rgba(0, 0, 0, 0.7);
+}
+#camera_type_footer .text_box_over_img a:active {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .clear {
