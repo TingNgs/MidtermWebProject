@@ -212,8 +212,12 @@ body {
     font-size: 12px;
 }
 
+#footer .page_size .reserved {
+    padding-top: 55px;
+}
+
 #footer .page_size .powered {
-    padding-top: 60px;
+    padding-top: 5px;
 }
 
 #footer .page_size .educational {
