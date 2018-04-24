@@ -618,6 +618,11 @@ body {
     margin-top: 20px;
 }
 
+#SLR_About .camera_type_content p {
+    font-size: 20px;
+
+}
+
 .camera_type_content p {
     font-size: 24px;
     font-weight: bold;
