@@ -433,10 +433,31 @@ body {
 
 /**productList**/
 
+#search_product h1 {
+    margin: 10px;
+    font-size: 28px;
+}
+
 #product_list .product {
     float: left;
     margin-left: 132px;
     margin-bottom: 10px;
+}
+
+.topic>h1 {
+    margin: 10px;
+    font-size: 28px;
+}
+
+.product_list_container {
+    width: 100%;
+    padding: 10px;
+    border-top: 0px;
+    display: table;
+}
+
+.product_list_container input {
+    margin-left: 5px;
 }
 
 
@@ -444,6 +465,11 @@ body {
 
 #about_us {
     margin-left: 50px;
+}
+
+#about_us h1 {
+    margin: 10px;
+    font-size: 28px;
 }
 
 .about_us_box {
@@ -559,77 +585,95 @@ body {
 }
 
 #camerasType_content p {
-    font-size: 28px;
+    font-size: 24px;
     margin: 20px 50px;
     line-height: 40px;
 }
-#action_camera img{
+
+#action_camera img {
     max-width: 1280px;
 }
-#action_camera{
+
+#action_camera {
     margin-top: 30px;
     position: relative;
 }
-#action_camera_content{
+
+#action_camera_content {
     position: absolute;
     top: 20px;
     right: 20px;
     max-width: 600px;
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
-.margin_top{
+
+.margin_top {
     display: block;
     height: 291px;
     margin-top: 30px;
 }
-div h1{
+
+div h1 {
     text-align: center;
-    font-size: 60px;    
+    font-size: 60px;
 }
-div p.main_content{
+
+div p.main_content {
     font-size: 32px;
 }
-.picture1{
+
+.picture1 {
     margin-right: 30px;
 }
-.content{
+
+.content {
     width: 804px;
     background-color: #7ca5db;
     height: 265px;
     border-radius: 15px;
     border: 3px solid #0000ff;
-    padding: 0 20px;        
+    padding: 0 20px;
 }
-h2{
+
+h2 {
     font-size: 200%;
 }
-.center{
-    text-align: center;    
+
+.center {
+    text-align: center;
 }
-.content ul li{
+
+.content ul li {
     font-size: 16px;
 }
-.content ul li strong{
+
+.content ul li strong {
     font-size: 24px;
 }
-.bigger{
+
+.bigger {
     font-size: 130%
 }
-a{
+
+a {
     text-decoration: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
-#container a:hover{
+
+#container a:hover {
     text-decoration: underline;
 }
-.float_left{
+
+.float_left {
     float: left;
 }
-.float_right{
+
+.float_right {
     float: right;
 }
-.clear{
+
+.clear {
     display: block;
-    content:"";
+    content: "";
     clear: both;
 }
