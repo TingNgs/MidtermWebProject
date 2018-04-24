@@ -18,7 +18,7 @@ function dialogSetting() {
         draggable: false,
         resizable: false,
         width: 1100,
-        height: 560,
+        height: 570,
         dialogClass: "no-titlebar"
     });
     $(document).on("click", ".product", function() {
@@ -102,12 +102,13 @@ function intiProduct() {
         if (linkString.length > 1) {
             if (linkString[0] == "brand") {
                 document.getElementById("Brand").innerHTML =
-                    "<h1>Search Result of : </h1><br><h1>" +
+                    "<h1>Search Result of : </h1><h1>" +
                     linkString[1] +
                     "</h1><p hidden=>#" +
                     linkString[2] +
                     "</p>";
                 $("#brand_cb").remove();
+                $("#Type").remove();
             } else if (linkString[0] == "type") {
                 document.getElementById("Type").innerHTML =
                     "<h1>Search Result of : </h1><h1>" +
@@ -121,6 +122,7 @@ function intiProduct() {
                     $("#lensType_cb").remove();
                     $("#camerasType_cb").remove();
                 }
+                $("#Brand").remove();
             }
         } else {
             $("#search_product").prepend(

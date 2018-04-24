@@ -99,7 +99,7 @@
         "brand": "#canon",
         "CorL": "#cameras",
         "type": "#compact",
-        "state":"#new",
+        "state":"#",
         "name":"Canon PowerShot G1 X Mark III",
         "dynamic":"6000 x 4000 (‎24.20 megapixels)",
         "dynamicValue":"Resolution : ",
@@ -112,7 +112,7 @@
         "brand": "#nikon",
         "CorL": "#cameras",
         "type": "#compact",
-        "state":"#new",
+        "state":"#",
         "name":"Nikon COOLPIX W300",
         "dynamic":"3840 x 2160(‎16.00 megapixels)",
         "dynamicValue":"Resolution : ",
@@ -147,6 +147,19 @@
         "hover":"Share your awesome point of view.",
         "features":"Waterproof, shockproof and freezeproof action camera.Epic 170° first person point of view with outstanding Nikon image quality. Record 4K Ultra HD videos, striking still images, time-lapse sequences and more. SnapBridge integration for wireless sharing. Compact and lightweight with over 10 mounting accessories available.",
         "path": "images/Nikon/Nikon_KeyMission_170.jpg"
+    },{
+        "brand": "#gopro",
+        "CorL": "#cameras",
+        "type": "#action",
+        "state":"#new",
+        "name":"GoPro Fusion",
+        "dynamic":"5228 x 2624",
+        "dynamicValue":"Resolution : ",
+        "dimensions":"73 x 75 x 39mm",
+        "weight":"200 g",
+        "hover":"All it shoots is everything. Create + share with the GoPro app.",
+        "features":"Fusion captures 360 video and photos, recording everything so you can find the best shots later. Preview and play back shots, create videos and share them on the go. Create immersive VR experiences in stunning 5.2K video.",
+        "path": "images/GoPro/GoPro_Fusion.jpg"
     },
     {
         "brand": "#gopro",
@@ -161,6 +174,34 @@
         "hover":"Stunning 4K video and 12MP photos in Single, Burst and Time",
         "features":"RAW photos provide the most flexibility when using advanced photo editing software. HDR Photo mode captures added details in the shadows and highlights of a scene.Fine-tune exposure settings with simple on-screen Exposure Control.",
         "path": "images/GoPro/GoPro_hero_6.jpg"
+    },
+    {
+        "brand": "#gopro",
+        "CorL": "#cameras",
+        "type": "#action",
+        "state":"#",
+        "name":"GoPro hero 5",
+        "dynamic":"4000 x 3000",
+        "dynamicValue":"Resolution : ",
+        "dimensions":"62 x 44 x 24mm",
+        "weight":"118 g",
+        "hover":"Performance dialed. Life in 4K.",
+        "features":"Capture incredible 4K video that's as stunning as the moment itself. HERO5 Black is waterproof, durable and made to go where your smartphone can't. ake hands-free control of your GoPro using simple voice commands.",
+        "path": "images/GoPro/GoPro_hero_5.jpg"
+    },
+    {
+        "brand": "#gopro",
+        "CorL": "#cameras",
+        "type": "#action",
+        "state":"#",
+        "name":"GoPro HERO5 Session",
+        "dynamic":"3840 x 2160",
+        "dynamicValue":"Resolution : ",
+        "dimensions":"38 x 38 x 36mm",
+        "weight":"73 g",
+        "hover":"Sensitive dual microphones. Small size opens up mounting options",
+        "features":"Voice Control. Compact Mounting. 4K Video + 10MP Photo. Advanced Video Stabilization. Rugged + Waterproof",
+        "path": "images/GoPro/gopro_HERO5_Session.jpg"
     },
     {
         "brand": "#sony",
