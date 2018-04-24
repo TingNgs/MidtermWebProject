@@ -40,7 +40,7 @@ body{
 
 .product{
     width: 250px;
-    height: 300px;
+    height: 330px;
 }
 .product img{
     max-height: 250px;
@@ -66,10 +66,8 @@ body{
     text-overflow: ellipsis;
 }
 .product h2{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
-    white-space:pre-wrap;
-    text-overflow: ellipsis;
 }
 .product a{
     text-decoration: none;
@@ -157,11 +155,11 @@ body{
 }
 /**New Product**/
 #new_product{
-    height: 360px;
+    height: 380px;
     
 }
 #new_product_scroll{
-    height: 320px;
+    height: 330px;
     overflow-y:hidden;
 }
 #new_product h1{
@@ -177,14 +175,23 @@ body{
 }
 .horizontal_product_scroll{
     overflow: auto;
-    height: 320px;
+    height: 380px;
     white-space: nowrap;
     margin-left: 50px;
 }
-.horizontal_product{
+.horizontal_product_scroll .product{
+    margin-left: 60px;
     display: inline-block;
-    margin-right: 60px;
+    margin-bottom:0px;
+
 }
+
+.horizontal_product_scroll .product h2{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /****typography**/
 .text_over_img_w1280{
     margin-top: 20px;
@@ -321,7 +328,8 @@ body{
 /**productList**/
 #product_list .product{
     float: left;
-    margin-left: 50px;
+    margin-left: 132px;
+    margin-bottom: 10px;
 }
 
 /**About Us**/
