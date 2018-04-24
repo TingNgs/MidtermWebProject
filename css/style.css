@@ -471,7 +471,10 @@ body {
     margin: 10px;
     font-size: 28px;
 }
-
+#about_us p{
+    margin: 10px;
+    font-size: 24px;
+}
 .about_us_box {
     margin-top: 50px;
     width: 33%;
