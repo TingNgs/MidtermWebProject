@@ -554,71 +554,87 @@ body {
     margin: 20px 50px;
     line-height: 40px;
 }
-#action_camera img{
+
+/**Different camera type page**/
+.camera_type img{
     max-width: 1280px;
 }
-#action_camera{
+.camera_type{
     margin-top: 30px;
     position: relative;
 }
-#action_camera_content{
+.camera_type_content{
     position: absolute;
     top: 20px;
     right: 20px;
     max-width: 600px;
     word-wrap:break-word;
 }
-.margin_top{
-    display: block;
-    height: 291px;
-    margin-top: 30px;
-}
-div h1{
+.camera_type_content h1{
     text-align: center;
-    font-size: 60px;    
+    font-size: 48px;
+    margin-top: 20px;
 }
-div p.main_content{
-    font-size: 32px;
+.camera_type_content p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
 }
-.picture1{
-    margin-right: 30px;
+.camera_type_content_left{
+    min-width: 1280px;
+    margin-top: 20px;
 }
-.content{
-    width: 804px;
-    background-color: #7ca5db;
-    height: 265px;
-    border-radius: 15px;
-    border: 3px solid #0000ff;
-    padding: 0 20px;        
-}
-h2{
-    font-size: 200%;
-}
-.center{
-    text-align: center;    
-}
-.content ul li{
-    font-size: 16px;
-}
-.content ul li strong{
-    font-size: 24px;
-}
-.bigger{
-    font-size: 130%
-}
-a{
-    text-decoration: none;
-    cursor: pointer; 
-}
-#container a:hover{
-    text-decoration: underline;
-}
-.float_left{
+.camera_type_content_left img{
     float: left;
+    width: 600px; 
+    margin-bottom: 20px;
 }
-.float_right{
+.camera_type_content_left .camera_type_textBox{
+    width: 45%;
+    margin-top: 50px;
     float: right;
 }
+.camera_type_content_left .camera_type_textBox h2{
+    font-size: 48px;
+}
+.camera_type_content_left .camera_type_textBox li{
+    font-size: 28px;
+}
+.camera_type_content_right img{
+    float: right;
+    width: 600px;
+    margin-bottom: 20px;    
+}
+.camera_type_content_right .camera_type_textBox{
+    width: 45%;
+    margin-left: 30px;
+    position: relative;
+    top: 60px;
+}
+.camera_type_content_right .camera_type_textBox h2{
+    font-size: 48px;
+}
+.camera_type_content_right .camera_type_textBox li{
+    font-size: 28px;
+}
+#camera_type_footer  a{
+    color: #FFF;
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;;
+    margin-right: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 1900px;
+    margin-left: 800px;
+}
+#camera_type_footer  a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
 .clear{
     display: block;
     content:"";
