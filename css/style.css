@@ -216,10 +216,7 @@ body {
     padding-top: 55px;
 }
 
-#footer .page_size .powered {
-    padding-top: 5px;
-}
-
+#footer .page_size .powered,
 #footer .page_size .educational {
     padding-top: 5px;
 }
@@ -436,10 +433,31 @@ body {
 
 /**productList**/
 
+#search_product h1 {
+    margin: 10px;
+    font-size: 28px;
+}
+
 #product_list .product {
     float: left;
     margin-left: 132px;
     margin-bottom: 10px;
+}
+
+.topic>h1 {
+    margin: 10px;
+    font-size: 28px;
+}
+
+.product_list_container {
+    width: 100%;
+    padding: 10px;
+    border-top: 0px;
+    display: table;
+}
+
+.product_list_container input {
+    margin-left: 5px;
 }
 
 
@@ -447,6 +465,11 @@ body {
 
 #about_us {
     margin-left: 50px;
+}
+
+#about_us h1 {
+    margin: 10px;
+    font-size: 28px;
 }
 
 .about_us_box {
@@ -484,6 +507,18 @@ body {
     background-size: cover;
     border-radius: 50%;
     background-image: url(../images/newItDog.gif)
+}
+
+.edwardIcon {
+    margin: 0px auto 30px auto;
+    flex-shrink: 0;
+    height: 300px;
+    width: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/ef.gif)
 }
 
 
@@ -550,7 +585,7 @@ body {
 }
 
 #camerasType_content p {
-    font-size: 28px;
+    font-size: 24px;
     margin: 20px 50px;
     line-height: 40px;
 }
@@ -568,7 +603,7 @@ body {
     top: 20px;
     right: 20px;
     max-width: 600px;
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
 .camera_type_content h1{
     text-align: center;
@@ -637,6 +672,6 @@ body {
 
 .clear{
     display: block;
-    content:"";
+    content: "";
     clear: both;
 }
