@@ -1,4 +1,4 @@
-*{padding: 0;margin: 0;}
+*{padding: 0;margin: 0; font-family: Arial;}
 .page_size{
     width: 1280px;
     margin: 0 auto;
@@ -23,6 +23,7 @@ body{
     max-width: 500px;
     max-height: 500px;
     float: left;
+    clear: both;
 }
 #dialog_info{
     float: right;
@@ -35,7 +36,25 @@ body{
     white-space:pre-wrap;
     line-height: 30px;
 }
+#dialog span{
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000000;
+    border: #000000 solid 1px;
+}
 
+#dialog span:hover{
+    color: #000000;
+    background-color: #FFF;
+    border: #000000 solid 1px;
+}
+.ui-dialog-titlebar { display: none; }
 /**Product**/    
 
 .product{
