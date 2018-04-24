@@ -34,6 +34,7 @@ body {
     max-width: 500px;
     max-height: 500px;
     float: left;
+    clear: both;
 }
 
 #dialog_info {
@@ -49,12 +50,38 @@ body {
     line-height: 30px;
 }
 
+#dialog span {
+    height: 31px;
+    width: 32px;
+    text-align: center;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000000;
+    border: #000000 solid 1px;
+}
+
+#dialog span:hover {
+    color: #000000;
+    background-color: #FFF;
+    border: #000000 solid 1px;
+}
+
+.ui-dialog-titlebar {
+    display: none;
+}
+
+
+/**Product**/
+
 
 /**Product**/
 
 .product {
     width: 250px;
-    height: 300px;
+    height: 330px;
 }
 
 .product img {
@@ -84,10 +111,8 @@ body {
 }
 
 .product h2 {
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
-    white-space: pre-wrap;
-    text-overflow: ellipsis;
 }
 
 .product a {
@@ -199,11 +224,11 @@ body {
 /**New Product**/
 
 #new_product {
-    height: 360px;
+    height: 380px;
 }
 
 #new_product_scroll {
-    height: 320px;
+    height: 330px;
     overflow-y: hidden;
 }
 
@@ -223,14 +248,21 @@ body {
 
 .horizontal_product_scroll {
     overflow: auto;
-    height: 320px;
+    height: 380px;
     white-space: nowrap;
     margin-left: 50px;
 }
 
-.horizontal_product {
+.horizontal_product_scroll .product {
+    margin-left: 60px;
     display: inline-block;
-    margin-right: 60px;
+    margin-bottom: 0px;
+}
+
+.horizontal_product_scroll .product h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -402,7 +434,8 @@ body {
 
 #product_list .product {
     float: left;
-    margin-left: 50px;
+    margin-left: 132px;
+    margin-bottom: 10px;
 }
 
 

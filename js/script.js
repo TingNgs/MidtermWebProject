@@ -1,32 +1,29 @@
 $(function() {
   $("#footer").load("footer.html");
   $("#header").load("header.html");
+  
 });
-function dialogSetting() {
+function dialogSetting() {  
   $("#dialog").dialog({
     autoOpen: false,
     show: {
-      effect: "blind",
-      duration: 100
+      effect: "fade",
+      duration: 300
     },
     hide: {
-      effect: "blind",
-      duration: 100
+      effect: "fade",
+      duration: 300
     },
     draggable: false,
     resizable: false,
     width: 1100,
-    height: 600
+    height: 560,
+    dialogClass: "no-titlebar"
   });
   $(document).on("click", ".product", function() {
-    
     url = "data.txt";
     clicked = $(this);
-    $("#dialog").dialog(
-      "option",
-      "title",
-      clicked[0].childNodes[0].childNodes[1].innerHTML
-    );
+
     $.get(url, function(index) {
       var temp = index.toString();
       var temp1 = JSON.parse("[" + temp + "]");
@@ -35,6 +32,7 @@ function dialogSetting() {
         if (clicked[0].childNodes[0].childNodes[1].innerHTML == json[i].name) {
           $("#dialog").empty();
           $("#dialog").append(
+            $('<a href="javascript:;"><span> X</span></a>'),
             $('<img id="dialog_img">').attr("src", json[i].path),
             $('<div id="dialog_info"></div>').append(
               $("<p>", { text: "Name : " + json[i].name }),
@@ -48,9 +46,13 @@ function dialogSetting() {
         }
       }
     });
+    
     $("#dialog").dialog("open");
     
   });
+  $(document).on("click", "#dialog span", function() {
+    $("#dialog").dialog("close");
+  })
 }
 function getNewProduct() {
   $.ajax({
