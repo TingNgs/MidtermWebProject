@@ -216,10 +216,7 @@ body {
     padding-top: 55px;
 }
 
-#footer .page_size .powered {
-    padding-top: 5px;
-}
-
+#footer .page_size .powered,
 #footer .page_size .educational {
     padding-top: 5px;
 }
@@ -484,6 +481,18 @@ body {
     background-size: cover;
     border-radius: 50%;
     background-image: url(../images/newItDog.gif)
+}
+
+.edwardIcon {
+    margin: 0px auto 30px auto;
+    flex-shrink: 0;
+    height: 300px;
+    width: 300px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/ef.gif)
 }
 
 
