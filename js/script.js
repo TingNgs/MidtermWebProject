@@ -207,15 +207,15 @@ function getData(brand, type) {
 $(document).ready(function() {
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
-            $('.scrollToTop').fadeIn();
+        if ($(this).scrollTop() >= 50) {
+            $('.scrollToTop').fadeIn(200);
         } else {
-            $('.scrollToTop').fadeOut();
+            $('.scrollToTop').fadeOut(200);
         }
     });
 
     $('.scrollToTop').click(function() {
-        $('html, body').animate({ scrollTop: 0 }, 800);
+        $('html, body').animate({ scrollTop: 0 }, 500);
         return false;
     });
 
