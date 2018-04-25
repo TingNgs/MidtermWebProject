@@ -629,8 +629,10 @@ body {
 }
 
 .camera_type_content_left {
-    min-width: 1280px;
+    min-width: 1180;
     margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .camera_type_content_left img {
@@ -657,11 +659,12 @@ body {
     float: right;
     width: 600px;
     margin-bottom: 20px;
+    margin-right: 50px;
 }
 
 .camera_type_content_right .camera_type_textBox {
     width: 45%;
-    margin-left: 30px;
+    margin-left: 50px;
     position: relative;
     top: 60px;
 }
