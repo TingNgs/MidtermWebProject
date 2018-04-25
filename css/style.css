@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:"Comic Sans MS", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 .page_size {
@@ -59,13 +59,11 @@ body {
     font-size: 28px;
     font-weight: lighter;
     color: #bbbbbb;
-
 }
 
 #dialog span:hover {
     color: #ffffff;
-    background-color : #e66363;
-
+    background-color: #e66363;
 }
 
 .ui-dialog-titlebar {
@@ -622,7 +620,6 @@ body {
 #SLR_About .camera_type_content p {
     font-size: 22px;
     line-height: 40px;
-
 }
 
 .camera_type_content p {
@@ -735,71 +732,109 @@ body {
 
 
 /**lensType**/
-#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img{
+
+#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img {
     margin-left: auto;
     margin-right: auto;
     width: 1280px;
-    position:absolute;
+    position: absolute;
     top: 340px;
 }
-#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img h1{
+
+#lensType_zoom_Prime .text_over_img_w1280 .text_box_over_img h1 {
     color: #fff;
     text-align: center;
     font-size: 48px;
 }
-#lensType_zoom_Prime .text_over_img_w1280 .container{
+
+#lensType_zoom_Prime .text_over_img_w1280 .container {
     position: absolute;
     top: 650px;
     min-width: 1280px;
 }
-#lensType_zoom_Prime .text_over_img_w1280 .container h1{
+
+#lensType_zoom_Prime .text_over_img_w1280 .container h1 {
     color: #fff;
     text-align: center;
     margin-bottom: 35px;
     font-size: 48px;
 }
-#lensType_zoom_Prime .text_over_img_w1280 .container h2{
+
+#lensType_zoom_Prime .text_over_img_w1280 .container h2 {
     color: #fff;
     text-align: center;
     height: 50px;
 }
-#types_of_camera_lens{
+
+#types_of_camera_lens {
     margin: 30px 50px;
 }
-#types_of_camera_lens h1{
+
+#types_of_camera_lens h1 {
     font-size: 52px;
     padding-bottom: 15px;
 }
-#types_of_camera_lens .lens_content_box{
+
+#types_of_camera_lens .lens_content_box {
     height: 302px;
     width: 100%;
     margin-top: 20px;
     border: #FFFFFF 1px solid;
 }
-#types_of_camera_lens .img_Right .lens_text_box{
+
+#types_of_camera_lens .img_Right .lens_text_box {
     width: auto;
 }
-#types_of_camera_lens .lens_text_box h2{
+
+#types_of_camera_lens .lens_text_box h2 {
     margin-top: 50px;
     margin-left: 30px;
 }
-#types_of_camera_lens .lens_text_box p{
+
+#types_of_camera_lens .lens_text_box p {
     margin-top: 20px;
     margin-left: 30px;
     font-size: 24px;
 }
-#types_of_camera_lens img{
+
+#types_of_camera_lens img {
     height: 300px;
 }
-#types_of_camera_lens .img_Left img{
+
+#types_of_camera_lens .img_Left img {
     float: left;
-    margin:0px 20px;
+    margin: 0px 20px;
 }
-#types_of_camera_lens .img_Right img{
+
+#types_of_camera_lens .img_Right img {
     float: right;
     margin-right: 20px;
 }
 
+
+/**Scroll to Top Button**/
+
+.scrollToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+}
+
+.scrollToTop:hover {
+    background: #e9ebec;
+}
 
 .clear {
     display: block;
