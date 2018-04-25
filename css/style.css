@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .page_size {
@@ -619,7 +620,8 @@ body {
 }
 
 #SLR_About .camera_type_content p {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 40px;
 
 }
 
